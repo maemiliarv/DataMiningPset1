@@ -1,0 +1,23 @@
+version: 0.1.1
+default:
+  # Default profile created for data IO access.
+  # Add your credentials for the source you use, and delete the rest.
+  # MySQL
+  MYSQL_DATABASE: instacart_db
+  MYSQL_HOST: localhost
+  MYSQL_PASSWORD: ServidorMySQL
+  MYSQL_PORT: 3306
+  MYSQL_USER: root
+  
+  # Snowflake
+  SNOWFLAKE_USER: SERVICE
+  SNOWFLAKE_PASSWORD: pofnIk-6kikhe-bokbyj
+  SNOWFLAKE_ACCOUNT: ABPWBUP-LSB46287
+  SNOWFLAKE_DEFAULT_WH: COMPUTE_WH                  # Optional default warehouse
+  SNOWFLAKE_DEFAULT_DB: INSTACART_DB                  # Optional default database
+  SNOWFLAKE_DEFAULT_SCHEMA: RAW              # Optional default schema
+  SNOWFLAKE_PRIVATE_KEY_PASSPHRASE: null      # Optional private key passphrase
+  SNOWFLAKE_PRIVATE_KEY_PATH: null            # Optional private key path
+  SNOWFLAKE_ROLE: ACCOUNTADMIN                        # Optional role name
+  SNOWFLAKE_TIMEOUT: null                     # Optional timeout in seconds
+ 
